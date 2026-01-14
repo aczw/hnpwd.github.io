@@ -14,24 +14,73 @@ visit the following link to view these resources:
 [lisp]: pwd.lisp
 
 
+Contents
+--------
+
+* [Add Your Website](#add-your-website)
+  * [Criteria](#criteria)
+  * [Add](#add)
+* [Maintainers Needed](#maintainers-needed)
+* [FAQ](#faq)
+* [Licence](#licence)
+* [Contact](#contact)
+
+
 Add Your Website
 ----------------
 
-To add your website to the directory, add the details of your website
-to [pwd.lisp][lisp] and send a pull request to this project.
+## Criteria
 
-If you scroll down to the bottom of the [pwd.lisp][lisp] file, you'll
-find an example entry that you can copy and paste to get started.
-While creating your PR, please follow these guidelines:
+Please ensure that a website meets the following criteria before
+requesting its inclusion in the directory:
 
- 1. Ensure that all website entries remain sorted by name.
- 2. Ensure that the bio text does not exceed 80 characters in length.
- 3. If you do not want to enter certain links, just delete that entire
-    property.  For example, if you do not want to provide an 'about'
-    link, just delete the entire `:about` line from your entry.
+ 1. The website must be a personal website, where the author of the
+    website has full control of its design and content.  Websites
+    hosted on personal domains clearly qualify.  Blogs hosted on
+    publishing platforms such as Medium or Substack do not qualify.
+    Websites hosted on services such as Neocities, GitHub Pages or
+    Codeberg Pages do qualify, as these platforms allow full control
+    over the site's design.
 
-Alternatively, [create an issue][ISSUES] and while creating the issue,
-provide the details of your website in the following format:
+ 2. Visit https://news.ycombinator.com/from?site=example.com and
+    replace `example.com` in the URL the website's domain. Review the
+    posts from the website with the highest point totals.  The website
+    qualifies if five or fewer posts have a combined total of at least
+    100 points.
+
+    For example, a website that has a single HN post with 100 points
+    qualifies.  A website with two HN posts with 60 and 40 points
+    respectively also qualify.  However, seven posts with 15 points
+    each do not.  Put another way, this criterion looks for an average
+    of at least 20 points per post across the top five posts from the
+    website on HN.
+
+If a website satisfies both criteria above, proceed with the
+submission process laid out in the next section.  These requirements
+help ensure that our directory remains interesting and substantive.
+They prevent iour directory from becoming a collection of minimal or
+placeholder websites with little content of value to the community.
+
+
+## Add
+
+Add the website details to [pwd.lisp][lisp] and submit a pull request.
+
+An example entry is provided at the bottom of the [pwd.lisp][lisp]
+file and can be copied and modified as a starting point.  When
+creating a pull request, please follow these guidelines:
+
+ 1. Keep all website entries sorted alphabetically by name.
+
+ 2. Ensure that the bio text does not exceed 80 characters.
+
+ 3. If certain information is not available or should not be included,
+    remove the corresponding property entirely.  For example, if no
+    'about' link is provided, delete the entire `:about` line from the
+    entry.
+
+Alternatively, [create an issue][ISSUES] and post the website details
+in the following format:
 
 ````lisp
 ```
@@ -47,6 +96,8 @@ provide the details of your website in the following format:
 
 That's it!  Once you create the PR or the issue, we'll take care of
 the rest.
+
+[HN]: HN
 
 
 Maintainers Needed

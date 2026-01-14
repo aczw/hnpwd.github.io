@@ -107,7 +107,7 @@
     (format s "    <script src=\"script.js\"></script>~%")
     (format s "  </head>~%")
     (format s "  <body>~%")
-    (format s "    <h1>HN Personal Websites Directory</h1>~%")
+    (format s "    <h1>HN Personal Websites</h1>~%")
     (format s "    <main>~%")
     (loop for item in items
           do (format s "~a" (make-html-card item)))
