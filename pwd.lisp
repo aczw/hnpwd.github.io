@@ -1,7 +1,16 @@
 ;;;; HN Personal Websites Directory
 ;;;; ==============================
 
-((:name "Alex Narayan"
+((:name "Aditya Athalye"
+  :site "https://www.evalapply.org/"
+  :blog "https://www.evalapply.org/posts/"
+  :feed "https://www.evalapply.org/index.xml"
+  :about "https://www.evalapply.org/about.html"
+  :now "https://www.evalapply.org/now.html"
+  :hnuid "adityaathalye"
+  :bio "Your next-door bitemporal DB-curious, Bash enjoyer, explainer and speaker.")
+
+ (:name "Alex Narayan"
   :site "https://gigatexal.blog/"
   :about "https://gigatexal.blog/pages/about/about.html"
   :hnuid "gigatexal"
@@ -144,15 +153,6 @@
   :feed "https://xeiaso.net/blog.rss"
   :hnuid "xena"
   :bio "Creator of Anubis.  Technical educator, conference speaker and Twitch streamer.")
-
- (:name "Aditya Athalye"
-  :site "https://www.evalapply.org/"
-  :blog "https://www.evalapply.org/posts/index.html#main"
-  :feed "https://www.evalapply.org/index.xml"
-  :about "https://www.evalapply.org/about.html#main"
-  :now "https://www.evalapply.org/now.html#main"
-  :hnuid "adityaathalye"
-  :bio "Your next-door bitemporal DB-curious, indie SaaS making, Clojure, SQLite, Bash/Babashka enjoyer, explainer, and conference speaker.")
 
  (:name ""
   :site ""
