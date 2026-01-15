@@ -120,7 +120,7 @@
   :feed "https://www.grepular.com/rss"
   :hnuid "mike-cardwell"
   :bio "Writes about tech, privacy, security and programming.")
- 
+
  (:name "Nicolas Chagnet"
   :site "https://nchagnet.pages.dev/"
   :feed "https://nchagnet.pages.dev/rss.xml"
@@ -204,6 +204,11 @@
   :feed "https://xeiaso.net/blog.rss"
   :hnuid "xena"
   :bio "Creator of Anubis.  Technical educator, conference speaker and Twitch streamer.")
+
+ ;; You may copy the following entry to add one for your website.
+ ;; Insert your entry at an appropriate place above so that the
+ ;; entries remain sorted alphabetically by name.  Delete any
+ ;; properties you do not need for your entry.
 
  (:name ""
   :site ""
