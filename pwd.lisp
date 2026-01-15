@@ -107,6 +107,13 @@
   :hnuid "cosmic_quanta"
   :bio "Writes about software.  On the Haskell Foundation Board of Directors.")
 
+ (:name "Lawrence Gimenez"
+  :site "https://law.gmnz.xyz"
+  :blog "https://law.gmnz.xyz/blog/"
+  :feed "https://law.gmnz.xyz/feed"
+  :hnuid "lawgimenez"
+  :bio "Mobile developer.  Writes both work and personal stuff.")
+
  (:name "Matt Crampton"
   :site "https://www.mattcrampton.com"
   :feed "https://www.mattcrampton.com/feed.xml"
