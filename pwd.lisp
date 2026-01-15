@@ -20,7 +20,7 @@
   :site "https://gigatexal.blog/"
   :about "https://gigatexal.blog/pages/about/about.html"
   :hnuid "gigatexal"
-  :bio "Writes about computers and technology")
+  :bio "Writes about computers and technology.")
 
  (:name "Anthony Bonkoski"
   :site "https://xorvoid.com/"
@@ -33,7 +33,7 @@
   :feed "https://aartaka.me/rss.xml"
   :about "https://aartaka.me/about.html"
   :hnuid "aartaka"
-  :bio "Writes about Lisp, ed(1) and the Web")
+  :bio "Writes about Lisp, ed(1) and the Web.")
 
  (:name "Captain's Quarters"
   :site "https://quarters.captaintouch.com/"
